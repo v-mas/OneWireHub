@@ -6,6 +6,9 @@
 DS1821::DS1821(): OneWireItem(0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77)
 {
     skip_multidrop = true;
+    temperature = 0;
+    counters[0] = 50;
+    counters[1] = 100;
 }
 
 void DS1821::duty(OneWireHub* const hub)
