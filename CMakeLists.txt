@@ -10,6 +10,7 @@ set(SOURCE_FILES
         main.cpp
         src/BAE910.cpp
         src/DS18B20.cpp
+        src/DS1821.cpp
         src/DS2401.cpp
         src/DS2405.cpp
         src/DS2408.cpp
